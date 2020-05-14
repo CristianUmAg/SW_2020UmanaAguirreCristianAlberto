@@ -1,2 +1,2 @@
-# SW_2020UmanaAguirreCrsitianAlberto
+# SW_2020UmanaAguirreCristianAlberto
 Mi nombre es Umaña Aguirre Cristian Alberto, en este curso me he sentido bien, admito que se me ha complicado un poco, pero con ayuda de un amigo y con una constante prueba y error (más error que prueba xd)  creo que poco a poco me he ido "adaptando" para poder cumplir con lo mayor posible, como pequeña nota jaja, lo que más me gusta hacer es el diseño de paginas web :)) ¡Hola GitHub!

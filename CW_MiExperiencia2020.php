@@ -9,3 +9,4 @@ vision sobre los asuntos en general, el hecho de no tener un pensamiento tan pla
 Creo poder agregar que espero con ansias los modulos de diseño :)
 
 *Nota: Me equivoque en el nombre del repositor :( una disculpa :)
+*Nota dos: ¿Como borro un repo? jaja :))

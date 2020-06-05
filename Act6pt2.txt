@@ -1,0 +1,14 @@
+Regex utilizada: 
+  (Regex|regex|\(regex\)|\(Regex\)|\[regex\]|\[Regex\]|regex\,|Regex\,|regex\.|Regex\.)+[\W]
+"Texto" utilizado:
+  regex
+  Regex
+  la regex esta en (parentesis)
+  Soy una regex
+  No soy regexXD
+  (Regex)
+  [regex]
+  regex,
+  Regex.
+  Regextrate ya en Regex.com
+  Espero hacer bien la Regex, pa sacar 10xd en Regex 

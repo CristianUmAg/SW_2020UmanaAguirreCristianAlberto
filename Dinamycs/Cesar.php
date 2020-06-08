@@ -1,5 +1,16 @@
 <?php
 
+  echo '
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../Statics/Imagnes/icon.png">
+    <link rel="stylesheet" href="../Statics/css/estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cesar</title>
+  </head>
+  <body>';
   if (isset($_POST['mensaje'])) {
     # code...
     $alf = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '.', ',', '?', '!', ' '];
@@ -18,16 +29,16 @@
     $mensajeC11 = str_replace("Ú", "U", $mensajeC10);
     $MEN = strtoupper($mensajeC11);
     $cuenta = strlen($MEN);
-    echo $cuenta.': Extencion del mensaje (caracteres)'.'<br>';
-    echo $MEN.'<br>';
+    echo 'Extencion del mensaje (caracteres): '.$cuenta.'<br>';
+    echo "El mensaje original es: ".$MEN.'<br>';
     $cesar = '';
-    $avance = 0;
-
+    $avance = 26;
+    $ALF = implode($alf);
+    //echo 'Soy el implode: '.$ALF.'<br>';
     
     for ($z=0; $z < $cuenta; $z++) {
       //code...
-      $ALF = implode($alf);
-      $pos = substr($ALF, $z, 1);
+      $pos = substr($MEN, $z, 1);
       $c2 = strripos($ALF, $pos) + $avance;
       //echo $c2.'c2';
       if ($c2 >= strlen($ALF)) {
@@ -41,17 +52,18 @@
       $cesar .= $ALF[$c2];
       //echo $c2.'<br>';
     }
-    echo $cesar;
+    echo 'El mensaje Cifrado es: '.$cesar;
   }
   else {
     echo '
     <form method="POST" acion="Cesar.php">
-    Mensaje a cifar:
-    <textarea min="5" max="75" name="mensaje"></textarea>
+    Mensaje a cifar:<br>
+    <textarea min="5" max="75" name="mensaje" cols="50" rows="10" placeholder="Introduce un mensaje aqui porfavor" required></textarea><br>
     <input type="submit" value="Cifrar">
     </form>';
   }
-  
-
+  echo '
+    </body>
+  </html>';
 
 ?>

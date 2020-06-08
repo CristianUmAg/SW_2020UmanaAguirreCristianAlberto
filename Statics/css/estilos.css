@@ -1,0 +1,35 @@
+body {
+  padding: 15px 25px;
+  background: rgb(144,63,251);
+  background: linear-gradient(160deg, rgba(144,63,251,1) 0%, rgba(252,70,70,1) 100%);
+  background-attachment: fixed;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-shadow: 1px 3px 3px lightyellow;
+}
+
+textarea {
+  outline: none;
+  color: #903ffb;
+  background-color: violet;
+  border-radius: 15px;
+  resize: none;
+  font-size: 25px;
+  padding: 15px;
+  border: 4px solid #d74484;
+}
+
+input {
+  background-color: white;
+  text-shadow: 1px 3px 3px #BB8AFB;
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 25px;
+  border: 2px solid #7232C7;
+  color: #7232C7;
+}
+
+input:hover {
+  background-color: #BB8AFB;
+}
